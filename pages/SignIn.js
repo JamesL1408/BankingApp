@@ -29,7 +29,7 @@ function SignIn() {
             
 
             <main className='box flex h-[60%] w-[40%] bg-black max-w-[400px] rounded-md min-w-[325px] items-center justify-center'>
-                <a href="/"><h1 className='text-4xl text-white font-medium font-zenAntique absolute top-[5%] left-[6%]'>Bux</h1></a>
+                <a href="/"><h1 className='text-4xl text-white font-bold font-zenAntique absolute top-[5%] left-[6%]'>Bux</h1></a>
                 <div className='h-[90%] w-[95%] bg-black flex flex-col items-center text-white'>
 
                     <h1 className='text-center font-roboto text-lg mt-10'>Sign in to your account</h1>
