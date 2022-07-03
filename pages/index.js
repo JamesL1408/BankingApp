@@ -53,7 +53,7 @@ const toggleHome = () =>{
     <div className="flex flex-col items-center min-h-screen font-roboto overflow-hidden">
       <Head>
         <title>Bux</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/money-growth.ico" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
