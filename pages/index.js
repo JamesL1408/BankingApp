@@ -50,7 +50,7 @@ const toggleHome = () =>{
   }
 
   return (
-    <div className="flex flex-col items-center min-h-screen font-roboto overflow-hidden">
+    <div className="flex flex-col items-center min-h-screen font-roboto overflow-hidden bg-black">
       <Head>
         <title>Bux</title>
         <link rel="icon" href="/money-growth.ico" />
