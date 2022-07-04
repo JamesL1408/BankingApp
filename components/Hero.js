@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import {ArrowRightIcon} from '@heroicons/react/solid'
+import background from '../images/bg.jpeg'
 
 function Hero() {
 
@@ -11,7 +12,8 @@ function Hero() {
 
     return (
         <div className='h-screen w-screen bg-black object-fill'>
-            <video className='h-full w-full object-cover' src='https://static.videezy.com/system/resources/previews/000/055/031/original/data-analysis-digital.mp4' muted defaultMuted loop autoPlay="autoplay" >Video Not Supported</video>
+            <video className='h-full w-full object-cover hidden sm:block' src='https://static.videezy.com/system/resources/previews/000/055/031/original/data-analysis-digital.mp4' muted defaultMuted loop autoPlay="autoplay" >Video Not Supported</video>
+            <div className='sm:hidden h-full w-full absolute top-0 left-0'><Image layout='fill' objectFit='cover' src={background} /></div>
             <div className='absolute flex flex-col items-center justify-center bottom-1/2 left-1/2 -translate-x-1/2 text-center translate-y-1/2 font-roboto text-white space-y-3'>
                 <h1 className=' text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-semibold lg:whitespace-nowrap'>Virtual banking has never been easier</h1>
                 <p className=' text-base sm:text-lg md:text-xl lg:text-2xl font-medium'>Sign up for a new account now and recieve £250 in credit towards your next transaction.</p>
